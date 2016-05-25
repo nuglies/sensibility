@@ -1,0 +1,21 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "simple mean example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "alex gorelik",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "bower": "^1.7.9",
+    "mongoose": "^4.4.14",
+    "node": "0.0.0"
+  }
+}

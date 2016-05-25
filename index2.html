@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>My Angular App!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-awesome-slider/dist/angular-awesome-slider.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="bower_components/angular-awesome-slider/dist/css/angular-awesome-slider.min.css">
+	
+    <script src="slider.js"></script>
+    
+    </head>
+<body>
+<div ng-app="myApp" ng-controller="ctrl" style="width:300px;margin:20px;">
+    <div style="margin-top:10px">
+        <input ng-model="value3"  type="text" id="{{id}}" slider options="options2" ng-disabled="disabled" />
+    </div>
+    <div style="margin-top:10px">
+        <input ng-model="value3"  type="text" id="{{id}}" slider options="options2Css" ng-disabled="disabled" />
+    </div>
+    <div style="margin-top:10px">
+        <input ng-model="value"  type="text" id="{{id}}" slider options="options2" ng-disabled="disabled" />
+    </div>
+    <div style="margin-top:10px">
+        <input ng-model="value"  type="text" id="{{id}}" slider options="options3" ng-disabled="disabled" />
+    </div>
+        <div style="margin-top:10px">
+        <input ng-model="value"  type="text" id="{{id}}" slider options="options4" ng-disabled="disabled" />
+    </div>
+    <div style="margin-top:10px">
+        <input ng-model="value"  type="text" id="{{id}}" slider options="options5" ng-disabled="disabled" />
+    </div>
+    <div style="display: inline-flex;">
+        <div style="margin-top:20px; height:300px;left:30px;margin-right:50px;">
+         <input ng-model="value"  type="text" id="{{id}}" slider options="optionsVerticalCss" ng-disabled="disabled" />
+        </div>
+        <div style="margin-top:20px; height:300px;left:30px;margin-right:50px;">
+         <input ng-model="value"  type="text" id="{{id}}" slider options="optionsVertical1" ng-disabled="disabled" />
+        </div>                        
+        <div style="margin-top:20px; height:300px;left:30px;margin-right:50px;">
+         <input ng-model="value"  type="text" id="{{id}}" slider options="optionsVertical2" ng-disabled="disabled" />
+        </div>
+        <div style="margin-top:20px; height:300px;left:30px;margin-right:50px;">            
+         <input ng-model="value"  type="text" id="{{id}}" slider options="optionsVertical3" ng-disabled="disabled" />
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

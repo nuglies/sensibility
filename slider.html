@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Slider</title>
+	<meta charset="utf-8">
+    <meta name="description" content="nug">
+    <meta name="viewport" content="width=device-width">
+    
+    </head>
+<body>
+<div ng-app="myApp" ng-controller="slideCtrl" style="width:300px;margin:20px;">
+    <div style="margin-top:10px">
+        <input ng-model="parVal"  type="text" id="{{idPar}}" slider options="parOpt" ng-disabled="disabled" />
+    </div>
+   
+    <div style="display: inline-flex;">
+        <div style="margin-top:20px; height:300px;left:30px;margin-right:50px;">
+        	<input ng-model="blueVal"  type="text" id="{{bluePeak}}" slider options="blueOpt" ng-disabled="disabled" />
+    	</div>
+    </div>
+   
+
+</div>
+</body>
+</html>
